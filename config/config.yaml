@@ -1,0 +1,17 @@
+data:
+    img_size: 28
+    num_classes: 10
+
+training:
+    batch_size: 32
+    epochs: 5
+    learning_rate: 0.001
+    validation_split: 0.2
+
+model:
+    dense_units: 512
+    dropout_rate: 0.3
+
+visualization:
+    pca_components: 2
+    fig_size: [10, 6]
